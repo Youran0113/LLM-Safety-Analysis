@@ -35,15 +35,15 @@ We analyze the geometric structure of safety-behavior steering vectors across mu
 
 ```bash
 # Extract steering vectors (run one process per GPU)
-python work_v2.py <gpu_id> <gpu0> <gpu1> ...
+python get_steering.py <gpu_id> <gpu0> <gpu1> ...
 
 # Example: 3 GPUs
-python work_v2.py 0 0 1 2 &
-python work_v2.py 1 0 1 2 &
-python work_v2.py 2 0 1 2 &
+python get_steering.py 0 0 1 2 &
+python get_steering.py 1 0 1 2 &
+python get_steering.py 2 0 1 2 &
 ```
 
-Output: `steering_<gpu_id>.safetensors` — keys formatted as `method|behavior|layer|component`
+Output: `gpu<gpu_id>.safetensors` — keys formatted as `method|behavior|layer|component`
 
 ---
 
