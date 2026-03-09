@@ -1,4 +1,4 @@
-# Disentangling Safety and Utility in LLM Activation Spaces
+# Disentangling Safety and Utility in LLM Activation Spaces with Extending Analysis in Geometry Structures
 
 **CS 639 Project — Group 14**
 Sungjin Cheong · Enze Zhang · Youran Wang · Yuliang Wu
