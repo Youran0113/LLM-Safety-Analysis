@@ -2,7 +2,7 @@
 
 **CS 639 Project — Group 14**
 Sungjin Cheong · Enze Zhang · Youran Wang · Yuliang Wu
-*Equal contribution*
+(*Equal contribution*)
 
 ---
 
